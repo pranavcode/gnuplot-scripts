@@ -12,7 +12,7 @@ My Setup
 Understanding the script
 ------------------------
 
-* Title for the graph/chart. Replace text "Some Title" with suitable text (quotes are mandatory).
+* Title for the graph/chart. Replace "Some Title" with suitable text (quotes required).
 
 ```
 set title "Some Title"
@@ -24,15 +24,15 @@ set xlabel '{/Helvetica-Oblique x}'
 set ylabel '{/Helvetica-Oblique y}'
 ```
 
-* Set the input file by replacing "input_data_file" and similarly for output. **input** is declared as variables and will be used further in the script. **output** is the keyword.
+* Set the input and output files (relative paths can be used). **input** is declared as variables and will be used further in the script. **output** is the keyword.
 ```
 input = "input_data_file"
 set output "output_data_file.jpeg"
 ```
-You create the data from multiple files. In that case you may wish to create more such input variables.
+You can create the data from multiple files. In that case, you may wish to create more such input variables, to make this script easy to understand and change in longer run.
 
 
-* To set the legend text for the data you are plotting change "Some data" to desired data name. You can use multiple such on seperate lines for multi-line plots.
+* To set the legend text for the data you are plotting change "Some data" to desired data/column name. You can use multiple such for multi-line plots.
 ```
 data_title = "Some Data"
 ```
@@ -55,7 +55,7 @@ How to use
 
 If the desired values are properly mentioned in the script - **gplotscript** as explained above. Then **gplotscript** can be consumed by gnuplot as given below (type this on your terminal):
 
-```bash
+```
 gnuplot gplotscript
 ```
 
