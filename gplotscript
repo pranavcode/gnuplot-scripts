@@ -1,0 +1,15 @@
+set title "Some Title"
+set xlabel '{/Helvetica-Oblique x}'
+set ylabel '{/Helvetica-Oblique y}'
+
+input = "test_plot.dat"
+set output "gplotscript.jpeg"
+
+data_title = "Some Data"
+
+set term jpeg size 1024,768 enhanced font 'Helvetica,10'
+set key inside right top vertical Right noreverse enhanced autotitles box linetype -1 linewidth 1.000
+set grid
+set border linewidth 2
+
+plot input title data_title with linespoints linestyle 1 linewidth 1
