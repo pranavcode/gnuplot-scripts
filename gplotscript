@@ -2,8 +2,8 @@ set title "Some Title"
 set xlabel '{/Helvetica-Oblique x}'
 set ylabel '{/Helvetica-Oblique y}'
 
-input = "test_plot.dat"
-set output "gplotscript.jpeg"
+input = "inputs/lorenz_example.data"
+set output "outputs/lorenz_example.jpeg"
 
 data_title = "Some Data"
 
