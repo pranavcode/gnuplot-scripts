@@ -62,4 +62,9 @@ gnuplot gplotscript
 Resources
 ---------
 
-GNU Plot tutorial [here (in PDF)](http://www.gnuplot.info/docs/tutorial.pdf).
+* GNU Plot tutorial [here (in PDF)](http://www.gnuplot.info/docs/tutorial.pdf).
+* Demo scripts for gnuplot [(Gnuplot Sourceforge page)](http://gnuplot.sourceforge.net/demo/).
+* A collection of Gnuplot [examples](http://alvinalexander.com/technology/gnuplot-charts-graphs-examples).
+* Gnuplot [tricks](http://gnuplot-tricks.blogspot.in/).
+* (Yet another) Gnuplot [tutorial](http://people.duke.edu/~hpgavin/gnuplot.html).
+* [Not-So-FAQs](http://www.helsinki.fi/~jalaaman/gnuplot/index.html) on Gnuplot.
